@@ -42,7 +42,7 @@ function formatLink(fileName, dirLevel) {
 function createNavbar(currentPage, dirLevel) {
     console.log("Creating nav bar..");
     let nav = document.createElement("nav");
-    nav.className = "navbar navbar-inverse";
+    nav.className = "navbar navbar-fixed-top navbar-inverse";
 
     let container = document.createElement("div");
     container.className = "container-fluid";
