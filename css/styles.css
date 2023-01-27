@@ -3,3 +3,6 @@ body {
     background-color: #213643;
     padding-top: 65px;
 }
+h1, h2, h3 {
+ font-family: Georgia, Cambria, "Times New Roman", cursive;
+}
