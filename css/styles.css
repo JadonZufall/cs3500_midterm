@@ -6,3 +6,11 @@ body {
 h1, h2, h3 {
  font-family: Georgia, Cambria, "Times New Roman", cursive;
 }
+
+table {
+    border: solid 1pt black;
+}
+td {
+    border: solid 1pt black;
+    padding: 5pt;
+}
