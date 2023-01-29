@@ -1,0 +1,82 @@
+Link to commit history: https://github.com/JadonZufall/CS3500_team4/commit/63920047870412958e3f619f58628cb20f748cfa
+
+Zufall, Jadon, [Jan 24 2023]:
+    Initial repo commit (this is just me creating the github repo).
+
+Zufall, Jadon, [Jan 24 2023]:
+    Created 3 files index.html script.js and styles.css as well as creating the basic outline for
+    the html file including default fields normally included in an html file.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Linked the proper style sheets and other sources to properly include bootstrap into the project.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Moved around the file structure of the project as well as added an example png, basically just put
+    files into sub dirs and properly relinked them.  Also created a gitignore to ignore ds_store
+    that was being created.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Created a topbar nav menu as an example from the tutorial that was linked on the project page.
+    This is just so I can get working with some subpages although the top bar is a bit bugged out
+    at the moment because the version of bootstrap I included was not the correct one.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Created an example page to serve as a sub dirrectory to test the navagation bar and that everything
+    is linking to the correct page.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Fixed the issue with the version of bootstrap we were running and downgraded to an older version in
+    order to allow the navbar to be properly displayed.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Changes the coloration on the navbar and webpage to be more of a darkmode.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Properly setup the timeline subpage to the navbar so it actually links correctly.  This is more of a
+    proof of concept as the # I was using before just 404ed.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Fixed website from 404ing when clicking the same link twice.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Deleted some of the example files I had put into folder.
+
+Zufall, Jadon, [Jan 24 2023]:
+    Created all of the sub pages that I exspect that will we need in the future as well as properly populating the
+    navagation bar with the correct links.
+
+Zufall, Jadon, [Jan 25 2023]:
+    Creating a javascript function that can be easily added to every page that modifys the DOM in order to include the
+    navagation bar at the top of the body when the page is loaded.
+
+Zufall, Jadon, [Jan 25 2023]:
+    Fixed the topbar to the top of the window so that it will scroll with the user and not disappear off their screen.
+
+Cassidy, Norkett [Jan 25 2023]:
+    I added the content/paragraph under the Awards heading.
+
+Cassidy, Norkett [Jan 27 2023]:
+    I deleted the placeholder title and added our real website title. I also added a bulleted list of potential links that would guide someone through our website.
+
+Cassidy, Norkett [Jan 27 2023]:
+    I added the section function to create content and paragraphs under the About header.
+
+Cassidy, Norkett [Jan 27 2023]:
+    I changed my mind and replaced what I deleted in the previous commit.
+
+
+Cassidy, Norkett [Jan 27 2023]:
+    I added a section for the "Top Hits" header.
+
+Cassidy, Norkett [Jan 27 2023]:
+    I added a section for Tour Dates.
+
+Jadon, Zufall [Jan 27 2023]:
+    Created static site hosting using github pages so that we could easily preview the website for those that are working only
+    from github.
+
+Cassidy, Norkett [Jan 27 2023]:
+    I added a list of Taylor Swift's top songs. I am planning on putting links to youtube videos eventually under each song.
+
+Cassidy, Norkett [Jan 27 2023]:
+    I added a paragraph function and a placeholder for a link to Taylor Swift's tour dates. (Her own website most likely)
