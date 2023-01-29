@@ -80,3 +80,18 @@ Cassidy, Norkett [Jan 27 2023]:
 
 Cassidy, Norkett [Jan 27 2023]:
     I added a paragraph function and a placeholder for a link to Taylor Swift's tour dates. (Her own website most likely)
+
+Ani, Malachi [Jan 27 2023]:
+	Update sources.html 
+
+Ani, Malachi [Jan 27 2023]:
+	Update styles.css 
+
+Ani, Malachi [Jan 27 2023]:
+	 Update sources.html 
+
+Ani, Malachi [Jan 29 2023]:
+	 Update awards.html 
+
+Ani, Malachi [Jan 29 2023]:
+ 	Update awards.html 
