@@ -1,4 +1,4 @@
-const websiteName = "Website Name"
+const websiteName = "Taylor Swift"
 const websitePages = {
     "index": {
         "verbose": "Home",
