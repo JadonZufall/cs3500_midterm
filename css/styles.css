@@ -3,7 +3,7 @@ body {
     background-color: #213643;
     padding-top: 65px;
 }
-<<<<<<< HEAD
+
 h1, h2, h3 {
  font-family: Georgia, Cambria, "Times New Roman", cursive;
 }
@@ -15,7 +15,14 @@ td {
     border: solid 1pt black;
     padding: 5pt;
 }
-=======
+
+hr.solid {
+    opacity: .50;
+    border-top: 3px solid #bbb;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 
 .timeline {
     color: #fff;
