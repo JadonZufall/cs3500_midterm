@@ -12,10 +12,6 @@ const websitePages = {
         "verbose": "Early Life",
         "link": "pages/early_life.html"
     },
-    "personal_life_and_death": {
-        "verbose": "Personal Life and Death",
-        "link": "pages/personal_life_and_death.html"
-    },
     "publications": {
         "verbose": "Publications",
         "link": "pages/publications.html"
