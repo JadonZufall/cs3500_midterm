@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 table {
     border: solid 1pt black;
+    padding-bottom: 65px;
 }
 td {
     border: solid 1pt black;
