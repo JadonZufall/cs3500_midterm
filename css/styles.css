@@ -17,13 +17,11 @@ td {
 }
 
 .won {
-    background-color: lime green;
-    color: black;
+    background-color: #42b77d ;
 }
 
 .nominated {
-    background-color: light gray;
-    color: black;
+    background-color: #91817f ;
 }
 
 hr.solid {
