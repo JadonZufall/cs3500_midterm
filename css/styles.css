@@ -16,6 +16,14 @@ td {
     padding: 5pt;
 }
 
+.won {
+    background-color: lime green;
+}
+
+.nominated {
+    background-color: light gray;
+}
+
 hr.solid {
     opacity: .50;
     border-top: 3px solid #bbb;
