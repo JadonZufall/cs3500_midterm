@@ -95,3 +95,9 @@ Ani, Malachi [Jan 29 2023]:
 
 Ani, Malachi [Jan 29 2023]:
  	Update awards.html 
+
+Cassidy, Norkett [Feb 14 2023]:
+	Added a paragraph and linebreaks to the about section in index.html
+	
+Cassidy, Norkett [Feb 14 2023]:
+	Added an external link to the tour date section in index.html
