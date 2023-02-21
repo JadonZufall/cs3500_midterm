@@ -146,3 +146,15 @@ hr.solid {
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+.about_section {
+    background-color: #112633;
+    border-radius: 25px;
+    border: 2px solid;
+    border-color: #112633;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
