@@ -61,4 +61,88 @@ hr.solid {
     max-width: 25px;
     max-height: 25px;
 }
->>>>>>> 5b5416f (Configured changes to timeline page)
+
+.page_navbar {
+    display: grid;
+    text-align: center;
+}
+
+.nav_a {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav_b {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav_c {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav_d {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.pic_box {
+    margin-bottom: 10rem;
+    padding: 0px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_section {
+    margin-top: 30px;
+}
+
+.pic_title {
+    text-align: center;
+}
+
+.pic_a {
+    margin: 0px;
+    padding: 0px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.pic_b {
+    margin: 0px;
+    padding: 0px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.pic_c {
+    margin: 0px;
+    padding: 0px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.pic_d {
+    margin: 0px;
+    padding: 0px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
