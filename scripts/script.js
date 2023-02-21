@@ -4,9 +4,17 @@ const websitePages = {
         "verbose": "Home",
         "link": "index.html"
     },
-    "timeline": {
-        "verbose": "Timeline",
-        "link": "pages/timeline.html"
+    "about": {
+        "verbose": "About",
+        "link": "pages/about.html"
+    },
+    "catalog": {
+        "verbose": "Catalog",
+        "link": "pages/catalog.html"
+    },
+    "references": {
+        "verbose": "References",
+        "link": "pages/references.html"
     },
     "early_life": {
         "verbose": "Early Life",
@@ -23,7 +31,7 @@ const websitePages = {
     "sources": {
         "verbose": "Sources",
         "link": "pages/sources.html"
-    }
+    },
 }
 
 
