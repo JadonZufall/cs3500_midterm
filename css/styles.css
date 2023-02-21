@@ -147,11 +147,11 @@ hr.solid {
     grid-row-end: 3;
 }
 
-.about_section {
-    background-color: #112633;
+.text_section {
+    background-color: #183040;
     border-radius: 25px;
     border: 2px solid;
-    border-color: #112633;
+    border-color: #183040;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
