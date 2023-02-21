@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2, h3 {
- font-family: Georgia, Cambria, "Times New Roman", cursive;
+    font-family: Georgia, Cambria, "Times New Roman", cursive;
 }
 
 table {
@@ -171,4 +171,30 @@ hr.solid {
     border-radius: 25px;
     border: 2px solid;
     border-color: #183040;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        position: block;
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 425px;
+        z-index: 0;
+    }
+    .navbar-fixed-top {
+        position: block;
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 425px;
+        z-index: 0;
+    }
+    .navbar-inverse {
+        position: absolute;
+        display:flex;
+        top: 0px;
+        z-index: 0;
+    }
+    body {
+        padding-top: 425px;
+    }
 }
