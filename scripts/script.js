@@ -24,6 +24,10 @@ const websitePages = {
         "verbose": "Publications",
         "link": "pages/publications.html"
     },
+    "merch": {
+        "verbose": "Merch",
+        "link": "pages/merch.html"
+    },
     "awards": {
         "verbose": "Awards",
         "link": "pages/awards.html"
