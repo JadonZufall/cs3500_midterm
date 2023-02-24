@@ -1,11 +1,12 @@
 body {
-    color: white;
-    background-color: #213643;
+    color: black;
+    background-color: #FFFFFF;
     padding-top: 65px;
+    font-family: "Verdana";
 }
 
 h1, h2, h3 {
-    font-family: Georgia, "Cambria", cursive;
+    font-family: Georgia, Cambria, "Times New Roman" cursive;
 }
 
 table {
@@ -164,5 +165,10 @@ hr.solid {
     border-radius: 25px;
     border: 2px solid;
     border-color: #183040;
+}
+img {
+  width: 500px;
+  height: 300px;
+  float: right;
 }
 
