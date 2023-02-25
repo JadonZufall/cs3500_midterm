@@ -118,3 +118,29 @@ hr.solid {
     grid-row-start: 2;
     grid-row-end: 2;
 }
+
+@media (max-width: 800px) {
+    .navbar {
+        position: block;
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 425px;
+        z-index: 0;
+    }
+    .navbar-fixed-top {
+        position: block;
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 425px;
+        z-index: 0;
+    }
+    .navbar-inverse {
+        position: absolute;
+        display:flex;
+        top: 0px;
+        z-index: 0;
+    }
+    body {
+        padding-top: 425px;
+    }
+}
