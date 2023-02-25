@@ -134,7 +134,7 @@ function createNavbar(currentPage, dirLevel) {
             let btnGroup = catLookup[val["catagory"]];
             let li = document.createElement("li");
             if (key === currentPage) {
-                btnGroup.classList.add("active");
+                btnGroup.parentElement.classList.add("active");
             }
             btnGroup.appendChild(li);
             let a = document.createElement("a");
