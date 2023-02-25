@@ -1,0 +1,170 @@
+1989	1	Welcome to New York	0	0.0	F	0	0		1
+1989	2	Blank Space	0	0.0	F	0	0		2
+1989	3	Style	0	0.0	F	0	0		3
+1989	4	Out of the Woods	0	0.0	F	0	0		4
+1989	5	AYHTDWS	0	0.0	F	0	0		5
+1989	6	Shake it Off	0	0.0	F	0	0		6
+1989	7	I Wish You Would	0	0.0	F	0	0		7
+1989	8	Bad Blood	0	0.0	F	0	0		8
+1989	9	Wildest Dreams	0	0.0	F	0	0		9
+1989	10	HYGTG	0	0.0	F	0	0		10
+1989	11	This Love	0	0.0	F	0	0			11
+1989	12	I Know Places	0	0.0	F	0	0		12
+1989	13	Clean 	0	0.0	F	0	0		13
+1989	14	Wonderland	0	0.0	F	0	0		14
+1989	15	You Are in Love	0	0.0	F	0	0		15
+1989	16	New Romantics	0	0.0	F	0	0		16
+Debut	1	Tim McGraw	0	0.0	F	0	0		17
+Debut	2	Picture to Burn	0	0.0	F	0	0		18
+Debut	3	Teardrops on My Guitar	0	0.0	F	0	0		19
+Debut	4	APITW	0	0.0	F	0	0		20
+Debut	5	Cold as You	0	0.0	F	0	0		21
+Debut	6	The Outside	0	0.0	F	0	0		22
+Debut	7	TTWAS	0	0.0	F	0	0		23
+Debut	8	Stay Beautiful	0	0.0	F	0	0		24
+Debut	9	Should've Said No	0	0.0	F	0	0		25
+Debut	10	Mary's Song	0	0.0	F	0	0		26
+Debut	11	Our Song	0	0.0	F	0	0		27
+Debut	12	IOMWIWY	0	0.0	F	0	0		28
+Debut	13	Invisible 	0	0.0	F	0	0		29
+Debut	14	A Perfectly Good Heart	0	0.0	F	0	0		30
+evermore	1	willow	0	0.0	F	0	0		31
+evermore	2	champagne problems	0	0.0	F	0	0		32
+evermore	3	gold rush	0	0.0	F	0	0		33
+evermore	4	ttds	0	0.0	F	0	0		34
+evermore	5	tolerate it	0	0.0	F	0	0		35
+evermore	6	nbnc	0	0.0	F	0	0		36
+evermore	7	happiness	0	0.0	F	0	0		37
+evermore	8	dorothea	0	0.0	F	0	0		38
+evermore	9	coney island	0	0.0	F	0	0		39
+evermore	10	ivy 	0	0.0	F	0	0		40
+evermore	11	cowboy like me	0	0.0	F	0	0		41
+evermore	12	long story short	0	0.0	F	0	0		42
+evermore	13	marjorie	0	0.0	F	0	0		43
+evermore	14	closure	0	0.0	F	0	0		44
+evermore	15	evermore	0	0.0	F	0	0		45
+evermore	16	rwylm	0	0.0	F	0	0		46
+evermore	17	it's time to go	0	0.0	F	0	0		47
+Fearless	1	Fearless	0	0.0	F	0	0		48
+Fearless	2	Fifteen	0	0.0	F	0	0		49
+Fearless	3	Love Story	0	0.0	F	0	0		50
+Fearless	4	Hey Stephen	0	0.0	F	0	0		51
+Fearless	5	White Horse	0	0.0	F	0	0		52
+Fearless	6	You Belong With Me	0	0.0	F	0	0		53
+Fearless	7	Breathe	0	0.0	F	0	0		54
+Fearless	8	Tell Me Why	0	0.0	F	0	0		55
+Fearless	9	You're Not Sorry	0	0.0	F	0	0		56
+Fearless	10	TWILY	0	0.0	F	0	0		57
+Fearless	11	Forever & Always	0	0.0	F	0	0		58
+Fearless	12	The Best Day	0	0.0	F	0	0		59
+Fearless	13	Change	0	0.0	F	0	0		60
+Fearless	14	Jump Then Fall	0	0.0	F	0	0		61
+Fearless	15	Untouchable	0	0.0	F	0	0		62
+Fearless	16	Forever & Always (Piano)	0	0.0	F	0	0		63
+Fearless	17	CIWTR	0	0.0	F	0	0		64
+Fearless	18	Superstar	0	0.0	F	0	0		65
+Fearless	19	TOSOTD	0	0.0	F	0	0		66
+Fearless	20	Today Was a Fairytale	0	0.0	F	0	0		67
+Fearless	21	You All Over Me (FTV)	0	0.0	F	0	0		68
+Fearless	22	Mr. Perfectly Fine (FTV)	0	0.0	F	0	0		69
+Fearless	23	We Were Happy (FTV)	0	0.0	F	0	0		70
+Fearless	24	That's When (FTV)	0	0.0	F	0	0		71
+Fearless	25	Don't You (FTV)	0	0.0	F	0	0		72
+Fearless	26	Bye Bye Baby (FTV)	0	0.0	F	0	0		73
+folklore	1	the 1	0	0.0	F	0	0		74
+folklore	2	cardigan	0	0.0	F	0	0		75
+folklore	3	tlgad	0	0.0	F	0	0		76
+folklore	4	exile	0	0.0	F	0	0		77
+folklore	5	my tears ricochet	0	0.0	F	0	0		78
+folklore	6	mirrorball	0	0.0	F	0	0		79
+folklore	7	seven	0	0.0	F	0	0		80
+folklore	8	august	0	0.0	F	0	0		81
+folklore	9	this is me trying	0	0.0	F	0	0		82
+folklore	10	illicit affairs	0	0.0	F	0	0		83
+folklore	11	invisible string	0	0.0	F	0	0		84
+folklore	12	mad woman	0	0.0	F	0	0		85
+folklore	13	epiphany	0	0.0	F	0	0		86
+folklore	14	betty	0	0.0	F	0	0		87
+folklore	15	peace	0	0.0	F	0	0		88
+folklore	16	hoax	0	0.0	F	0	0		89
+folklore	17	the lakes	0	0.0	F	0	0		90
+Lover	1	IFTYE	0	0.0	F	0	0		91
+Lover	2	Cruel Summer	0	0.0	F	0	0		92
+Lover	3	Lover	0	0.0	F	0	0		93
+Lover	4	The Man	0	0.0	F	0	0		94
+Lover	5	The Archer	0	0.0	F	0	0		95
+Lover	6	I Think He Knows	0	0.0	F	0	0		96
+Lover	7	MAATHBP	0	0.0	F	0	0		97
+Lover	8	Paper Rings	0	0.0	F	0	0		98
+Lover	9	Cornelia Street	0	0.0	F	0	0		99
+Lover	10	DBATC	0	0.0	F	0	0		100
+Lover	11	London Boy	0	0.0	F	0	0		101
+Lover	12	SYGB	0	0.0	F	0	0		102
+Lover	13	False God	0	0.0	F	0	0		103
+Lover	14	YNTCD	0	0.0	F	0	0		104
+Lover	15	Afterglow	0	0.0	F	0	0		105
+Lover	16	Me!	0	0.0	F	0	0		106
+Lover	17	INTHAF	0	0.0	F	0	0		107
+Lover	18	Daylight	0	0.0	F	0	0		108
+Red	1	State of Grace	0	0.0	F	0	0		109
+Red	2	Red	0	0.0	F	0	0		110
+Red	3	Treacherous	0	0.0	F	0	0		111
+Red	4	IKYWT	0	0.0	F	0	0		112
+Red	5	All Too Well	0	0.0	F	0	0		113
+Red	6	22	0	0.0	F	0	0		114
+Red	7	I Almost Do	0	0.0	F	0	0		115
+Red	8	WANEGBT	0	0.0	F	0	0		116
+Red	9	Stay Stay Stay	0	0.0	F	0	0		117
+Red	10	The Last Time	0	0.0	F	0	0		118
+Red	11	Holy Ground	0	0.0	F	0	0		119
+Red	12	Sad Beautiful Tragic	0	0.0	F	0	0		120
+Red	13	The Lucky One	0	0.0	F	0	0		121
+Red	14	Everything Has Changed	0	0.0	F	0	0		122
+Red	15	Starlight	0	0.0	F	0	0		123
+Red	16	Begin Again	0	0.0	F	0	0		124
+Red	17	The Moment I Knew	0	0.0	F	0	0		125
+Red	18	Come Back… Be Here	0	0.0	F	0	0		126
+Red	19	Girl At Home	0	0.0	F	0	0		127
+Red	20	State of Grace (Acoustic)	0	0.0	F	0	0		128
+Red	22	Better Man (FTV)	0	0.0	F	0	0		129
+Red	23	Nothing New (FTV)	0	0.0	F	0	0		130
+Red	24	Babe (FTV)	0	0.0	F	0	0		131
+Red	25	Message in a Bottle (FTV)	0	0.0	F	0	0		132
+Red	26	I Bet You Think About Me (FTV	0	0.0	F	0	0		133
+Red	27	Forever Winter (FTV)	0	0.0	F	0	0		134
+Red	28	Run (FTV)	0	0.0	F	0	0		135
+Red	29	The Very First Night (FTV)	0	0.0	F	0	0		136
+Red	30	All Too Well (TMV)	0	0.0	F	0	0		137
+Reputation	1	…Ready for It?	0	0.0	F	0	0		138
+Reputation	2	End Game	0	0.0	F	0	0		139
+Reputation	3	I Did Something Bad	0	0.0	F	0	0		140
+Reputation	4	Don't Blame Me	0	0.0	F	0	0		141
+Reputation	5	Delicate	0	0.0	F	0	0		142
+Reputation	6	LWYMMD	0	0.0	F	0	0		143
+Reputation	7	So It Goes… 	0	0.0	F	0	0		144
+Reputation	8	Gorgeous	0	0.0	F	0	0		145
+Reputation	9	Getaway Car	0	0.0	F	0	0		146
+Reputation	10	King of My Heart	0	0.0	F	0	0		147
+Reputation	11	DWOHT	0	0.0	F	0	0		148
+Reputation	12	Dress	0	0.0	F	0	0		149
+Reputation	13	TIWWCHNT	0	0.0	F	0	0		150
+Reputation	14	CIWYW	0	0.0	F	0	0		151
+Reputation	15	New Year's Day	0	0.0	F	0	0		152
+Speak Now	1	Mine	0	0.0	F	0	0		153
+Speak Now	2	Sparks Fly	0	0.0	F	0	0		154
+Speak Now	3	Back To December	0	0.0	F	0	0		155
+Speak Now	4	Speak Now	0	0.0	F	0	0		156
+Speak Now	5	Dear John	0	0.0	F	0	0		157
+Speak Now	6	Mean	0	0.0	F	0	0		158
+Speak Now	7	The Story of Us	0	0.0	F	0	0		159
+Speak Now	8	Never Grow Up	0	0.0	F	0	0		160
+K161
+Speak Now	9	Enchanted	0	0.0	F	0	0		161
+Speak Now	10	Better Than Revenge	0	0.0	F	0	0		162
+Speak Now	11	Innocent	0	0.0	F	0	0		163
+Speak Now	12	Haunted	0	0.0	F	0	0		164
+Speak Now	13	Last Kiss	0	0.0	F	0	0		165
+Speak Now	14	Long Live	0	0.0	F	0	0		166
+Speak Now	15	Ours	0	0.0	F	0	0		167
+Speak Now	16	If This Was a Movie	0	0.0	F	0	0		168
+Speak Now	17	Superman	0	0.0	F	0	0		
