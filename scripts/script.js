@@ -67,6 +67,10 @@ function formatLink(fileName, dirLevel) {
 
 
 function createNavbar(currentPage, dirLevel) {
+    /* 
+    This is probably the biggest waste of time I have ever spent writting something... 
+    It is an absolute mess, so @Jadon if you need to make any changes.
+    */
     console.log("Creating nav bar..");
     let nav = document.createElement("nav");
     nav.className = "navbar navbar-fixed-top navbar-inverse";
