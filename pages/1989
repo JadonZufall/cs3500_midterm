@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!-- Page propertys. -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Team 4</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="container">
+                <section>
+                  <h3>1983</h3>
+                  
+                  <p> In 2009, Taylor embarked on her first tour as a headliner, playing to sold-out venues across North America. That year also saw Swift dominate the industry award circuit. Fearless 
+            was recognized as album of the year by the Academy of Country Music and she topped the best female video category for “You Belong with Me” at the MTV Video Music Awards 
+            (VMAs). During her VMA acceptance speech, Swift was interrupted by rapper Kanye West, who protested that the award should have gone to Beyoncé for what he called “one 
+            of the best videos of all time.”  Later in the program, when Beyoncé was accepting the award for video of the year, she invited Swift onstage to conclude her speech, a move that drew 
+            a standing ovation for both performers. Her recognition as CMA entertainer of the year made
+            her the youngest-ever winner of that award, as well as the first female solo artist to win since 1999. She began 2010 with an impressive showing at the Grammy Awards, where she collected 
+            four awards, which included best country song, best country album, and the top prize of album of the year. </p>
+        
+                  <p> Taylor Swift's third album, Speak Now, was littered with allusions to romantic relationships with John Mayer, Joe Jonas of the Jonas Brothers, and Twilight series actor Taylor Lautner. She 
+            reclaimed the CMA entertainer of the year award in 2011, and the following year she won 2 Grammys for best country solo performance and best country song for “Mean", a single from Speak Now.
+            Taylor Swift als continued her acting career with a voice role in the animated Dr. Seuss’ The Lorax (2012) before releasing her next collection of songs, Red. While she remained focused on the 
+            unpredictabilities of young love, her songwriting reflected a deepened perspective on the subject, and much of the album embraced a bold pop-rock sound. In its first week on sale in the United States, 
+            Red sold 1.2 million copies, the highest one-week total in 10 years. In addition, its lead single, “We Are Never Ever Getting Back Together,” gave Swift her first number-one hit on 
+            the Billboard pop singles chart. </p>
+            
+            </div>
+
+        <script src="../scripts/script.js"></script>
+    </body>
+</html>
