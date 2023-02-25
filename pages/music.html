@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Social Media</title>
+    
+    <!-- Link bootstrap things. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/music.css">
+</head>
+<body onload="pageSetup();">
+    <div class="container">
+    <div class="row">
+        <div style="float: left;">
+            <button class="btn btn-default" onclick="btnDec();">&lt;</button>
+        </div>
+        
+        <div class="col-xs-6 col-md-2">
+            <a href="#" class="thumbnail" onclick="activate(-2);">
+                <img src="../images/albums/1-tim-mcgraw.jpg" id="img0">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-2">
+            <a href="#" class="thumbnail" onclick="activate(-1);">
+                <img src="../images/albums/1-tim-mcgraw.jpg" id="img1">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-2">
+            <a href="#" class="thumbnail" onclick="activate(0);">
+                <img src="../images/albums/1-tim-mcgraw.jpg" id="img2">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-2">
+            <a href="#" class="thumbnail" onclick="activate(1);">
+                <img src="../images/albums/1-tim-mcgraw.jpg" id="img3">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-2">
+            <a href="#" class="thumbnail" onclick="activate(2);">
+                <img src="../images/albums/1-tim-mcgraw.jpg" id="img4">
+            </a>
+        </div>
+        <div style="float: right;">
+            <button class="btn btn-default" onclick="btnInc();">&gt;</button>
+        </div>
+
+    </div>
+    <h1 id="song-title"></h1>
+    <p id="song-list"></p>
+    </div>
+    <script src="../scripts/music.js">updateSelection();</script>
+</body>
+</html>
