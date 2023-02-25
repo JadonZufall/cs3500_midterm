@@ -10,6 +10,26 @@ const websitePages = {
         "link": "pages/about.html",
         "catagory": "Info"
     },
+    "early_life": {
+        "verbose": "Early Life",
+        "link": "pages/early_life.html",
+        "catagory": "Timeline"
+    },
+    "awards": {
+        "verbose": "Awards",
+        "link": "pages/awards.html",
+        "catagory": "Music"
+    },
+    "listen": {
+        "verbose": "Listen",
+        "link": "pages/listen.html",
+        "catagory": "Music"
+    },
+    "music": {
+        "verbose": "Music",
+        "link": "pages/music.html",
+        "catagory": "Music"
+    },
     "catalog": {
         "verbose": "Catalog",
         "link": "pages/catalog.html",
@@ -20,11 +40,6 @@ const websitePages = {
         "link": "pages/references.html",
         "catagory": "Info"
     },
-    "early_life": {
-        "verbose": "Early Life",
-        "link": "pages/early_life.html",
-        "catagory": "Timeline"
-    },
     "publications": {
         "verbose": "Publications",
         "link": "pages/publications.html",
@@ -34,21 +49,6 @@ const websitePages = {
         "verbose": "Merch",
         "link": "pages/merch.html",
         "catagory": "Merch"
-    },
-    "music": {
-        "verbose": "Music",
-        "link": "pages/music.html",
-        "catagory": "Music"
-    },
-    "listen": {
-        "verbose": "Listen",
-        "link": "pages/listen.html",
-        "catagory": "Music"
-    },
-    "awards": {
-        "verbose": "Awards",
-        "link": "pages/awards.html",
-        "catagory": "None"
     },
     "sources": {
         "verbose": "Sources",
