@@ -9,37 +9,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/music.css">
 </head>
 <body onload="pageSetup();">
-    <div class="container">
-    <div class="row">
+    <div class="container" style="align-items: center; text-align: center;">
+    <div class="row text_section" style="display: flex; align-items: center; justify-content: center;">
         <div style="float: left;">
             <button class="btn btn-default" onclick="btnDec();">&lt;</button>
         </div>
         
-        <div class="col-xs-6 col-md-2">
+        <div class="col-xs-6 col-md-2" style="padding-top: 20px;">
             <a href="#" class="thumbnail" onclick="activate(-2);">
                 <img src="../images/albums/1-tim-mcgraw.jpg" id="img0">
             </a>
         </div>
-        <div class="col-xs-6 col-md-2">
+        <div class="col-xs-6 col-md-2" style="padding-top: 20px;">
             <a href="#" class="thumbnail" onclick="activate(-1);">
                 <img src="../images/albums/1-tim-mcgraw.jpg" id="img1">
             </a>
         </div>
-        <div class="col-xs-6 col-md-2">
+        <div class="col-xs-6 col-md-2" style="padding-top: 20px;">
             <a href="#" class="thumbnail" onclick="activate(0);">
                 <img src="../images/albums/1-tim-mcgraw.jpg" id="img2">
             </a>
         </div>
-        <div class="col-xs-6 col-md-2">
+        <div class="col-xs-6 col-md-2" style="padding-top: 20px;">
             <a href="#" class="thumbnail" onclick="activate(1);">
                 <img src="../images/albums/1-tim-mcgraw.jpg" id="img3">
             </a>
         </div>
-        <div class="col-xs-6 col-md-2">
+        <div class="col-xs-6 col-md-2" style="padding-top: 20px;">
             <a href="#" class="thumbnail" onclick="activate(2);">
                 <img src="../images/albums/1-tim-mcgraw.jpg" id="img4">
             </a>
@@ -52,6 +52,7 @@
     <h1 id="song-title"></h1>
     <p id="song-list"></p>
     </div>
+    <script src="../scripts/script.js"></script>
     <script src="../scripts/music.js">updateSelection();</script>
 </body>
 </html>
