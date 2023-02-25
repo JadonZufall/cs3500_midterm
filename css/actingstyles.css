@@ -1,0 +1,144 @@
+body {
+    color: white;
+    background-color: #213643;
+    padding-top: 65px;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, Cambria, "Times New Roman", cursive;
+}
+
+table {
+    border: solid 1pt black;
+    padding-bottom: 65px;
+}
+td {
+    border: solid 1pt black;
+    padding: 5pt;
+}
+
+.won {
+    background-color: #42b77d ;
+}
+
+.nominated {
+    background-color: #91817f ;
+}
+
+hr.solid {
+    opacity: .50;
+    border-top: 3px solid #bbb;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.timeline {
+    color: #fff;
+    background-color: #ff0000;
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    top: 50%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.timeline-line {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 7px;
+    top: 9px;
+}
+
+.timeline-point {
+    position: absolute;
+    background-color: #00ff00;
+    left: 25px;
+    min-width: 12px;
+    min-height: 12px;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.page_navbar {
+    display: grid;
+    text-align: center;
+}
+
+.nav_a {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav_b {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav_c {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.nav_d {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.text_section {
+    background-color: #183040;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #183040;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+.movie_poster{
+    width: 260px;
+    height: 600px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    text-align: center;
+    float:left; 
+    display: inline;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        position: block;
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 425px;
+        z-index: 0;
+    }
+    .navbar-fixed-top {
+        position: block;
+        top: 0px;
+        margin-top: 0px;
+        margin-bottom: 425px;
+        z-index: 0;
+    }
+    .navbar-inverse {
+        position: absolute;
+        display:flex;
+        top: 0px;
+        z-index: 0;
+    }
+    body {
+        padding-top: 425px;
+    }
+}
