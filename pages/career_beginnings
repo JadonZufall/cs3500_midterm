@@ -1,1 +1,37 @@
 
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!-- Page propertys. -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Team 4</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="container">
+                <section>
+                  <h3>Career Beginnings</h3>
+                  <p> Taylor Swift's first single, "Tim Mcgraw", was an immediate success, spending eight months on the Billboard country singles chart.  At age 16, she followed with a self-titled 
+            debut album, and she went on tour, opening for Rascal Flatts.  Taylor Swift became certified platinum in 2007, having sold more than one million copies 
+            in the United States. Taylor continued a rigorous touring schedule, opening for artists such as George Strait, Kenny Chesney, Tim McGraw, and 
+            Faith Hill. That November, she received the Horizon Award for best new artist from the Country Music Association (CMA), ending the year in which 
+            she emerged as country music’s most-visible young star. </p>
+            
+                  
+                  <p> On Swift’s second album, Fearless, she demonstrated a refined pop sensibility, managing to court the mainstream pop audience without losing sight of her 
+            country roots.  Fearless opened at number one on the Billboard 200 chart with sales that had more than half a million copies in its first week. It ultimately spent more 
+            time on top of the chart than any other album released in that decade. Singles such as “You Belong with Me” and “Love Story” were popular in the digital market as well, 
+            the latter accounting for more than 4,000,000 paid downloads. </p>
+            
+    </div>
+
+        <script src="../scripts/script.js"></script>
+    </body>
+</html>
+
+    
