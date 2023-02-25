@@ -2,43 +2,58 @@ const websiteName = "Taylor Swift"
 const websitePages = {
     "index": {
         "verbose": "Home",
-        "link": "index.html"
+        "link": "index.html",
+        "catagory": "None"
     },
     "about": {
         "verbose": "About",
-        "link": "pages/about.html"
+        "link": "pages/about.html",
+        "catagory": "Info"
     },
     "catalog": {
         "verbose": "Catalog",
-        "link": "pages/catalog.html"
+        "link": "pages/catalog.html",
+        "catagory": "Info"
     },
     "references": {
         "verbose": "References",
-        "link": "pages/references.html"
+        "link": "pages/references.html",
+        "catagory": "Info"
     },
     "early_life": {
         "verbose": "Early Life",
-        "link": "pages/early_life.html"
+        "link": "pages/early_life.html",
+        "catagory": "Timeline"
     },
     "publications": {
         "verbose": "Publications",
-        "link": "pages/publications.html"
+        "link": "pages/publications.html",
+        "catagory": "Music"
     },
     "merch": {
         "verbose": "Merch",
-        "link": "pages/merch.html"
+        "link": "pages/merch.html",
+        "catagory": "Merch"
+    },
+    "music": {
+        "verbose": "Music",
+        "link": "pages/music.html",
+        "catagory": "Music"
     },
     "listen": {
         "verbose": "Listen",
-        "link": "pages/listen.html"
+        "link": "pages/listen.html",
+        "catagory": "Music"
     },
     "awards": {
         "verbose": "Awards",
-        "link": "pages/awards.html"
+        "link": "pages/awards.html",
+        "catagory": "None"
     },
     "sources": {
         "verbose": "Sources",
-        "link": "pages/sources.html"
+        "link": "pages/sources.html",
+        "catagory": "Info"
     },
 }
 
@@ -75,16 +90,58 @@ function createNavbar(currentPage, dirLevel) {
     container.appendChild(navMain);
 
     for (let [key, val] of Object.entries(websitePages)) {
-        let li = document.createElement("li");
-        if (key === currentPage) {
-            li.className = "active";
-        }
-        navMain.appendChild(li);
+        if (val["catagory"] == "None") {
+            let li = document.createElement("li");
+            if (key === currentPage) {
+                li.className = "active";
+            }
+            navMain.appendChild(li);
 
-        let a = document.createElement("a");
-        a.href = formatLink(val["link"], dirLevel);
-        a.innerText = val["verbose"];
-        li.appendChild(a);
+            let a = document.createElement("a");
+            a.href = formatLink(val["link"], dirLevel);
+            a.innerText = val["verbose"];
+            li.appendChild(a);
+        }
+    }
+
+    let catagories = new Array;
+    let catLookup = {};
+    for (let [key, val] of Object.entries(websitePages)) {
+        if (!catagories.includes(val["catagory"]) && val["catagory"] != "None") {
+            catagories.push(val["catagory"])
+            let btnMain = document.createElement("li");
+            btnMain.className = "dropdown";
+            let btnA = document.createElement("a");
+            btnA.href="#";
+            btnA.class = "dropdown-toggle";
+            btnA.setAttribute("data-toggle", "dropdown");
+            btnA.role = "button";
+            btnA.setAttribute("aria-haspopup", "True");
+            btnA.setAttribute("aria-expanded", "False");
+            btnA.innerHTML = val["catagory"] + ' <span class="caret"></span>'
+            btnMain.appendChild(btnA);
+            let btnGroup = document.createElement("ul");
+            btnGroup.className = "dropdown-menu";
+            btnGroup.id = val["catagory"];
+            btnMain.appendChild(btnGroup);
+            navMain.appendChild(btnMain);
+            catLookup[val["catagory"]] = btnGroup;
+        }
+    }
+
+    for (let [key, val] of Object.entries(websitePages)) {
+        if (val["catagory"] != "None") {
+            let btnGroup = catLookup[val["catagory"]];
+            let li = document.createElement("li");
+            if (key === currentPage) {
+                btnGroup.classList.add("active");
+            }
+            btnGroup.appendChild(li);
+            let a = document.createElement("a");
+            a.href = formatLink(val["link"], dirLevel);
+            a.innerText = val["verbose"];
+            li.appendChild(a);
+        }
     }
 
     console.log("Loaded navagation bar");
