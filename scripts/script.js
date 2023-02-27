@@ -1,4 +1,23 @@
+// Stores the website name for use in the navbar.
 const websiteName = "Taylor Swift"
+
+/* 
+    If you have questions please @JadonZufall in the team.
+
+    This is a constant javascript object that is parsed on load of the webpage in order to add
+    links in the navbar to each subpage.
+
+    The reason for doing this instead of just in html is because I didn't want to copy it on each
+    page and have to change it everywhere.
+
+    Each page has a verbose, link, and, catagory property.  
+    * Verbose - is the name of the link (how it will be represented on the page)
+    
+    * Link - is the path to the html file from the root directory (generally pages/file.html)
+    
+    * Catagory - is the drop down menu it will be sorted into, if catagory is None then it will
+    *    not be put into a drop down catagory and will come before the drop down catagories.
+*/
 const websitePages = {
     "index": {
         "verbose": "Home",
@@ -13,6 +32,31 @@ const websitePages = {
     "early_life": {
         "verbose": "Early Life",
         "link": "pages/early_life.html",
+        "catagory": "Timeline"
+    },
+    "career_beginnings": {
+        "verbose": "Career Beginnings",
+        "link": "pages/career_beginnings.html",
+        "catagory": "Timeline"
+    },
+    "hardship": {
+        "verbose": "Hardship",
+        "link": "pages/hardship.html",
+        "catagory": "Timeline"
+    },
+    "acting": {
+        "verbose": "Acting",
+        "link": "pages/acting.html",
+        "catagory": "Timeline"
+    },
+    "genreswitch": {
+        "verbose": "Genre Switch",
+        "link": "pages/genreswitch.html",
+        "catagory": "Timeline"
+    },
+    "present_day": {
+        "verbose": "Present Day",
+        "link": "pages/present_day.html",
         "catagory": "Timeline"
     },
     "awards": {
@@ -55,23 +99,49 @@ const websitePages = {
         "link": "pages/sources.html",
         "catagory": "Info"
     },
+    "taylorsversion": {
+        "verbose": "Taylors Version",
+        "link": "pages/taylorsversion.html",
+        "catagory": "Albums"
+    },
+    "1989": {
+        "verbose": "1989",
+        "link": "pages/1989.html",
+        "catagory": "Albums"
+    },
+    "activism": {
+        "verbose": "Activism",
+        "link": "pages/activism.html",
+        "catagory": "Other"
+    }
 }
 
 
 function formatLink(fileName, dirLevel) {
+    /* 
+        Function that returns the filename formatted in a way so that the root dir is pathed to
+        and then it finds the file from there.
+
+        fileName is the name of the file with .html on the end and any path from root included.
+
+        dirLevel is the levels of directories that the file is nested in.
+    */
+    
+    // Go up a directory for each level in dirLevel.
     for (let i = 0; i < dirLevel; i++) {
         fileName = "../" + fileName;
     }
+
+    // Return the formatted string
     return fileName;
 }
 
 
 function createNavbar(currentPage, dirLevel) {
     /* 
-    This is probably the biggest waste of time I have ever spent writting something... 
-    It is an absolute mess, so @Jadon if you need to make any changes.
+        This function creates the navbar from the elements in the websitePage object.
     */
-    console.log("Creating nav bar..");
+    // Create all the base elements of the navbar and set their attributes.
     let nav = document.createElement("nav");
     nav.className = "navbar navbar-fixed-top navbar-inverse";
 
@@ -83,6 +153,7 @@ function createNavbar(currentPage, dirLevel) {
     header.className = "navbar-header";
     container.appendChild(header);
 
+    // Append the branding to the navbar.
     let brand = document.createElement("a");
     brand.className = "navbar-brand";
     brand.innerText = websiteName;
@@ -93,6 +164,7 @@ function createNavbar(currentPage, dirLevel) {
     navMain.className = "nav navbar-nav"
     container.appendChild(navMain);
 
+    // Create and add all the links outside of a catagory..
     for (let [key, val] of Object.entries(websitePages)) {
         if (val["catagory"] == "None") {
             let li = document.createElement("li");
@@ -108,6 +180,7 @@ function createNavbar(currentPage, dirLevel) {
         }
     }
 
+    // Create all the links inside of a catagory.
     let catagories = new Array;
     let catLookup = {};
     for (let [key, val] of Object.entries(websitePages)) {
@@ -133,6 +206,7 @@ function createNavbar(currentPage, dirLevel) {
         }
     }
 
+    // Add all the links inside of a catagory.
     for (let [key, val] of Object.entries(websitePages)) {
         if (val["catagory"] != "None") {
             let btnGroup = catLookup[val["catagory"]];
@@ -148,14 +222,15 @@ function createNavbar(currentPage, dirLevel) {
         }
     }
 
-    console.log("Loaded navagation bar");
-    console.log(nav);
-
+    // Insert the navbar into the document before the firstElementChild.
     document.body.insertBefore(nav, document.body.firstElementChild);
 }
 
 
 function onLoad() {
+    /* 
+        Function called on page load, it adds the navbar.
+    */
     let location = window.location.href;
     let split = location.split("/");
     let documentName = split[split.length - 1];
@@ -164,9 +239,8 @@ function onLoad() {
         dirLevel += 1;
     }
     let currentPage = documentName.replace(".html", "");
-    console.log(currentPage);
-    console.log(dirLevel);
     createNavbar(currentPage, dirLevel);
 }
 
+// Calls the onLoad function when this file is imported.
 onLoad();
