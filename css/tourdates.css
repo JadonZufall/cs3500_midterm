@@ -32,7 +32,16 @@ h1, h2, h3 {
 	display: table;
 }
 /* holder div makes it so i can do colums with divs */
+
 td {
 	padding: 10px;
 }
-	
+button {
+	display:block;
+	background-color: #213643; 
+	padding: 10px; 
+	color: white;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto
+}
