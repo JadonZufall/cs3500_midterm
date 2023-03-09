@@ -32,3 +32,7 @@ h1, h2, h3 {
 	display: table;
 }
 /* holder div makes it so i can do colums with divs */
+td {
+	padding: 10px;
+}
+	
