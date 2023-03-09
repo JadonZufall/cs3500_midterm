@@ -8,9 +8,26 @@ h1, h2, h3 {
     font-family: Georgia, Cambria, "Times New Roman", cursive;
 }
 
-.headerdiv {
+#leftdiv {
   background-color: white;
   margin: 60px;
   border-radius:10px;
+  width: 700px;
   padding: 30px;
+  float: left;
+  
+  
 }
+
+#rightdiv {
+	background-color: white;
+	margin: 60px;
+	border-radius:10px;
+	padding: 30px;
+	float: right;
+}
+
+#holderdiv {
+	display: table;
+}
+/* holder div makes it so i can do colums with divs */
