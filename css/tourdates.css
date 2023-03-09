@@ -10,7 +10,7 @@ h1, h2, h3 {
 
 #leftdiv {
   background-color: white;
-  margin: 10px;
+  margin: 40px;
   border-radius:10px;
   width: 450px;
   padding: 30px;
@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 #rightdiv {
 	background-color: white;
-	margin: 10px;
+	margin: 40px;
 	border-radius:10px;
 	padding: 30px;
 	float: right;
