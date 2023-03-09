@@ -5,16 +5,17 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: Georgia, Cambria, "Times New Roman", cursive;
+	font-family: Georgia, Cambria, "Times New Roman", cursive;
 }
 
 #leftdiv {
-  background-color: white;
-  margin: 40px;
-  border-radius:10px;
-  width: 450px;
-  padding: 30px;
-  float: left;
+  	background-color: white;
+  	margin: 40px;
+  	border-radius:10px;
+  	width: 450px;
+  	padding: 30px;
+	float: left;
+	position: fixed;
   
   
 }
@@ -26,6 +27,7 @@ h1, h2, h3 {
 	padding: 30px;
 	float: right;
 	position: relative;
+	margin-left: 600px;
 }
 
 #holderdiv {
