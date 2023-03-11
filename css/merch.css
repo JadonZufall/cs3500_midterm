@@ -1,3 +1,49 @@
+h3, p, div, img {
+    pointer-events: auto;
+}
+
+img {
+    transition: transform 0.6s;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
+
+.jumbotron {
+    transition: 0.6s;
+    margin-top: 35px;
+}
+
 .thumbnail {
     min-height: 450px;
+    transition: 0.6s;
+}
+
+.jumbotron:hover {
+    background-color: #c5c5c5;
+}
+
+.thumbnail:hover {
+    background-color: #c5c5c5;
+    transform: scale(1.1);
+}
+
+.btn {
+    transition: 1.2s;
+}
+
+.caption {
+    transition: 0.6s;
+}
+
+.caption:hover {
+    color: white;
+}
+
+.btn:hover {
+    color: beige;
+    background-color: rosybrown;
+    border-color: rosybrown;
+    transform: scale(1.1);
 }

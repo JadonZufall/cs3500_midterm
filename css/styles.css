@@ -177,6 +177,9 @@ hr.solid {
     body {
         padding-top: 50px;
     }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 
