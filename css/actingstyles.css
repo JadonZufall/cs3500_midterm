@@ -1,25 +1,3 @@
-body {
-    color: white;
-    background-color: #213643;
-    padding-top: 65px;
-}
-
-h1, h2, h3 {
-    font-family: Georgia, Cambria, "Times New Roman", cursive;
-}
-
-.text_section {
-    background-color: #183040;
-    border-radius: 10px;
-    border: 2px solid;
-    border-color: #183040;
-    margin-top: 15px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 0px;
-}
-
 .movie_poster{
     width: 260px;
     height: 600px;
@@ -28,30 +6,4 @@ h1, h2, h3 {
     text-align: center;
     float:left; 
     display: inline;
-}
-
-@media (max-width: 800px) {
-    .navbar {
-        position: block;
-        top: 0px;
-        margin-top: 0px;
-        margin-bottom: 425px;
-        z-index: 0;
-    }
-    .navbar-fixed-top {
-        position: block;
-        top: 0px;
-        margin-top: 0px;
-        margin-bottom: 425px;
-        z-index: 0;
-    }
-    .navbar-inverse {
-        position: absolute;
-        display:flex;
-        top: 0px;
-        z-index: 0;
-    }
-    body {
-        padding-top: 425px;
-    }
 }
