@@ -1,3 +1,4 @@
+# Script that parses song data for prod
 import os
 from pprint import pprint
 if "song_dat.txt" not in os.listdir("./"):
