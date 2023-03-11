@@ -14,83 +14,121 @@
         <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
+        <style>
+            code {
+                background-color: black;
+                color: white;
+            }
+            cite {
+                color: grey;
+            }
+            cite a:link {
+                color: lightcoral;
+            }
+            cite a:visited {
+                color: lightcoral;
+            }
+            cite a:hover {
+                color: lightcoral;
+            }
+            cite a:active {
+                color: lightcoral;
+            }
+        </style>
         <div class="container">
-            <div class="page_title">
-                <h1>References</h1>
-            </div>
+            <h1 class="page_title">References</h1>
             <hr class="solid"/>
             <div class="ref_group">
-                <div class="ref_group_title">
-                    <h3>Jadon Zufall</h3>
-                </div>
+                <h2 class="ref_group_title">Jadon Zufall</h2>
                 <div class="ref_group_content" style="margin-left:5rem;">
-                    <li><h4>HTML</h4>
-                        <ul>
-                            <li>
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">“HTML: Hypertext markup language,” MDN. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/HTML. [Accessed: 21-Feb-2023]. </a>
-                                <ul>
-                                    <li>Used everywhere when a general reminder of HTML element tags was required.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="https://www.w3schools.com/bootstrap/bootstrap_navbar.asp">Bootstrap Navigation Bar. [Online]. Available: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp. [Accessed: 21-Feb-2023]. </a>
-                                <ul>
-                                    <li>Used in order to properly create the navagation bar at the top of the screen.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><h4>CSS</h4>
-                        <ul>
-                            <li>
-                                <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">A. Prenzel, C. Coyier, A. Tudor, R. Rendle, M. Herchel, S. Soueidan, G. Graham, A. G. and S. Maranzana, A. Larsen, M. Root-Wiley, T. Afif, Preethi, K. Bonett, J. M. García, R. Mulligan, M. Troost, M. Matuzovic, D. Tonon, C. Geelhoed, O. Williams, and P. Selvam, “A complete guide to CSS grid: CSS-tricks,” CSS, 09-Feb-2023. [Online]. Available: https://css-tricks.com/snippets/css/complete-guide-grid/. [Accessed: 21-Feb-2023]. </a></li>
-                                <ul>
-                                    <li>Used on the index page for the top hits item alignment</li>
-                                </ul>
-                            <li>
-                                <a href="https://www.w3schools.com/css/css3_borders.asp">CSS Rounded corners. [Online]. Available: https://www.w3schools.com/css/css3_borders.asp. [Accessed: 21-Feb-2023]. </a>
-                                <ul>
-                                    <li>Used in order to make rounded text standouts.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="https://getbootstrap.com/docs/3.3/components/">J. T. Mark Otto, “Components,” Components · Bootstrap. [Online]. Available: https://getbootstrap.com/docs/3.3/components/#jumbotron. [Accessed: 24-Feb-2023]. </a>
-                                <ul>
-                                    <li>Used for general components and specifically elements on the merch.html page.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><h4>Javascript</h4>
-                        <ul>
-                            <li>
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">“JavaScript,” MDN. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/JavaScript. [Accessed: 21-Feb-2023]. </a>
-                                <ul>
-                                    <li>Used on every page in order to include the top bar into the page</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><h4>Other</h4>
-                        <ul>
-                            <li>
-                                <a href="https://store.taylorswift.com/">Taylor Swift Official Online Store. [Online]. Available: https://store.taylorswift.com/. [Accessed: 24-Feb-2023]. </a>
-                                <ul>
-                                    <li>Used on merch page as a reference for some merch items.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="https://www.reddit.com/r/TaylorSwift/comments/vvbvw4/excel_spreadsheet_for_ranking_taylor_swift_music/">“R/taylorswift - excel spreadsheet for ranking Taylor Swift Music,” reddit. [Online]. Available: https://www.reddit.com/r/TaylorSwift/comments/vvbvw4/excel_spreadsheet_for_ranking_taylor_swift_music/. [Accessed: 24-Feb-2023]. </a>
-                                <ul>
-                                    <li>This guy uploaded a spread sheet on reddit with alot of album data that I parsed.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
+                    <blockquote>
+                        For just general refreshing on HTML tags and other basic HTML features I used mozilla's documentation on
+                        the subject.  This was used all over the code in places that I forgot the name of the tag I required or
+                        for specific features that needed to be added that have an odd name.
+                        <br>
+                        <cite>
+                            “HTML: Hypertext markup language,” MDN. [Online]. Available: 
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a>
+                            . [Accessed: 21-Feb-2023].
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        Tutorial I used in order to create the basic topbar at the top of the screen, this was then applied to
+                        javascript that I already knew in order to create the dynamically added topbar that is created on page
+                        load to display navagation links.  This topbar was alot modified dirrectly as I required it to match the
+                        cite color theme as well as have some animations paired with it.  Although I would have liked to rework
+                        it to be more easily customised it turned out functional and scales dynamically based on the viewport
+                        size the user has.
+                        <br>
+                        <cite>
+                            Bootstrap Navigation Bar. [Online]. Available: 
+                            <a href="https://www.w3schools.com/bootstrap/bootstrap_navbar.asp">https://www.w3schools.com/bootstrap/bootstrap_navbar.asp</a>
+                            .[Accessed: 21-Feb-2023]. 
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        For general CSS positioning and grid rules I used this guide which helps remind me how to properly position items
+                        on the page.  This made life a bit easier rather then just guessing and checking if I was unsure about some positioning
+                        element or CSS rule.
+                        <br>
+                        <cite>
+                            A. Prenzel, C. Coyier, A. Tudor, R. Rendle, M. Herchel, S. Soueidan, G. Graham, A. G. and S. Maranzana, 
+                            A. Larsen, M. Root-Wiley, T. Afif, Preethi, K. Bonett, J. M. García, R. Mulligan, M. Troost, M. Matuzovic, 
+                            D. Tonon, C. Geelhoed, O. Williams, and P. Selvam, “A complete guide to CSS grid: CSS-tricks,” 
+                            CSS, 09-Feb-2023. [Online]. Available: 
+                            <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a>
+                            . [Accessed: 21-Feb-2023].
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        For rounded corners on text outline sections I used this W3 school tutorial as I had completely forgotten how todo that.
+                        <br>
+                        <cite>
+                            CSS Rounded corners. [Online]. Available: 
+                            <a href="https://www.w3schools.com/css/css3_borders.asp">https://www.w3schools.com/css/css3_borders.asp</a>
+                            . [Accessed: 21-Feb-2023].
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        Used as a general reference to bootstraps features and tools.
+                        <br>
+                        <cite>
+                            J. T. Mark Otto, “Components,” Components · Bootstrap. [Online]. Available: 
+                           <a href="https://getbootstrap.com/docs/3.3/components/">https://getbootstrap.com/docs/3.3/components/</a>
+                            . [Accessed: 24-Feb-2023]. 
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        Used in order to help create the dynamically added topbar as well as a javascript reference.
+                        <br>
+                        <cite>
+                            “JavaScript,” MDN. [Online]. Available: 
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript</a>
+                            . [Accessed: 21-Feb-2023]. 
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        This individual posted on reddit a nice spreadsheet I used by parsing the information with a python script so that I
+                        did not have to manually copy and paste things.
+                        <br>
+                        <cite>
+                            “R/taylorswift - excel spreadsheet for ranking Taylor Swift Music,” reddit. [Online]. Available: 
+                            <a href="https://www.reddit.com/r/TaylorSwift/comments/vvbvw4/excel_spreadsheet_for_ranking_taylor_swift_music/">https://www.reddit.com/r/TaylorSwift/comments/vvbvw4/excel_spreadsheet_for_ranking_taylor_swift_music/</a>
+                            .[Accessed: 24-Feb-2023]. 
+                        </cite>
+                    </blockquote>
+                    <blockquote>
+                        Taylorswifts offical merch store I used in order to create the merch page.
+                        <br>
+                        <cite>
+                            Taylor Swift Official Online Store. [Online]. Available: 
+                            <a href="https://store.taylorswift.com/">https://store.taylorswift.com/</a>
+                            . [Accessed: 24-Feb-2023].
+                        </cite>
+                    </blockquote>
                 </div>
             </div>
         </div>
-
         <script src="../scripts/script.js"></script>
     </body>
 </html>
