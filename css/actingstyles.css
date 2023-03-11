@@ -7,3 +7,7 @@
     float:left; 
     display: inline;
 }
+
+.movie_poster img {
+    padding-bottom: 15px;
+}
