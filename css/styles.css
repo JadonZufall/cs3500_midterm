@@ -173,7 +173,7 @@ hr.solid {
     border-color: #183040;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 732px) {
     .navbar {
         position: block;
         top: 0px;
