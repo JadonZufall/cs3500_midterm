@@ -168,6 +168,7 @@ function createNavbar(currentPage, dirLevel) {
     for (let [key, val] of Object.entries(websitePages)) {
         if (val["catagory"] == "None") {
             let li = document.createElement("li");
+            li.className = "other";
             if (key === currentPage) {
                 li.className = "active";
             }

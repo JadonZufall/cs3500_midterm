@@ -1,6 +1,7 @@
 body {
-    color: white;
-    background-color: #213643;
+    color: #EDEDED;
+    /* background-color: #213643; */
+    background-color: #171717;
 }
 
 h1, h2, h3 {
@@ -147,10 +148,10 @@ hr.solid {
 }
 
 .text_section {
-    background-color: #183040;
+    background-color: #444444;
     border-radius: 25px;
     border: 2px solid;
-    border-color: #183040;
+    border-color: #444444;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -164,13 +165,55 @@ hr.solid {
     text-align: center;
 }
 
+a:link {
+    color: #DA0037;
+}
+a:visited {
+    color: #EDEDED;
+}
+a:hover {
+    color: #DA0037;
+}
+a:active {
+    color: #EDEDED;
+}
+.btn:link {
+    color: #EDEDED;
+}
+.btn:visited {
+    color: #EDEDED;
+}
+.btn:hover {
+    color: #EDEDED;
+}
+.btn:active {
+    color: #EDEDED;
+}
+
+
+
 .backtotopurl {
+    color: #EDEDED;
     padding: 5px;
-    background-color: #183040;
+    background-color: #444444;
     border-radius: 25px;
     border: 2px solid;
-    border-color: #183040;
+    border-color: #444444;
 }
+.backtotopurl:link {
+    color: #EDEDED;
+}
+.backtotopurl:visited {
+    color: #EDEDED;
+}
+.backtotopurl:hover {
+    color: #DA0037;
+}
+.backtotopurl:active {
+    color: #EDEDED;
+}
+
+
 
 
 
@@ -209,10 +252,16 @@ hr.solid {
     .active.dropdown:hover {
         background-color: #080808;
     }
-    .dropdown:hover ul {
-        background-color: white;
+    .active.dropdown ul:hover {
+        background-color: #EDEDED;
     }
-    .navbar li:hover {
+    .dropdown li:hover {
+        background-color: #EDEDED;
+    }
+    .dropdown:hover ul {
+        background-color: #EDEDED;
+    }
+    .navbar .other:hover {
         background-color: #181818;
     }
     .navbar-header {
