@@ -40,13 +40,8 @@ const websitePages = {
         "catagory": "Timeline"
     },
     "hardship": {
-        "verbose": "Hardship",
-        "link": "pages/hardship.html",
-        "catagory": "Timeline"
-    },
-    "acting": {
-        "verbose": "Acting",
-        "link": "pages/acting.html",
+        "verbose": "Hardships",
+        "link": "pages/hardships.html",
         "catagory": "Timeline"
     },
     "genreswitch": {
@@ -92,7 +87,7 @@ const websitePages = {
     "merch": {
         "verbose": "Merch",
         "link": "pages/merch.html",
-        "catagory": "Merch"
+        "catagory": "Other"
     },
     "sources": {
         "verbose": "Sources",
@@ -113,7 +108,12 @@ const websitePages = {
         "verbose": "Activism",
         "link": "pages/activism.html",
         "catagory": "Other"
-    }
+    },
+    "acting": {
+        "verbose": "Acting",
+        "link": "pages/acting.html",
+        "catagory": "Other"
+    },
 }
 
 
