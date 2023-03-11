@@ -173,12 +173,57 @@ hr.solid {
 }
 
 
+
+
 @media screen and (min-width: 751px) {
     body {
         padding-top: 50px;
     }
+    .container-fluid {
+        padding-left: 0px;
+    }
+    .navbar-header {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    li.dropdown.active {
+        background-color: #080808;
+    }
+
+    .dropdown, .active, .navbar li {
+        transition: 1.2s;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+    .active:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown:hover {
+        background-color: #181818;
+    }
+    .active.dropdown:hover {
+        background-color: #080808;
+    }
+    .dropdown:hover ul {
+        background-color: white;
+    }
+    .navbar li:hover {
+        background-color: #181818;
+    }
+    .navbar-header {
+        left: 0px;
+        transition: 1.2s;
+    }
+    .navbar-header:hover {
+        background-color: #181818;
+    }
+    .navbar-header .navbar-brand {
+        transform: 1.2s;
     }
 }
 
