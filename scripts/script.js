@@ -114,6 +114,11 @@ const websitePages = {
         "link": "pages/acting.html",
         "catagory": "Other"
     },
+    "tourdates": {
+        "verbose": "Tour Dates",
+        "link": "pages/tourdates.html",
+        "catagory": "Other"
+    },
 }
 
 
