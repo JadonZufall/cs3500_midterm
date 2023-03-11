@@ -1,7 +1,6 @@
 body {
     color: white;
     background-color: #213643;
-    padding-top: 65px;
 }
 
 h1, h2, h3 {
@@ -173,7 +172,18 @@ hr.solid {
     border-color: #183040;
 }
 
-@media (max-width: 732px) {
+
+@media screen and (min-width: 751px) {
+    body {
+        padding-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 751px) {
+    body {
+        padding-top: 385px;
+    }
     .navbar {
         position: block;
         top: 0px;
@@ -194,8 +204,40 @@ hr.solid {
         top: 0px;
         z-index: 0;
     }
-    body {
-        padding-top: 425px;
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .container-fluid {
+        width: 100%;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav_a, .nav_b, .nav_c, .nav_d {
+        display: grid;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .nav_a {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .nav_b {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .nav_c {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .nav_d {
+        grid-column: 2;
+        grid-row: 1;
     }
 }
-
