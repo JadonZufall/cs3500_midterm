@@ -119,6 +119,11 @@ const websitePages = {
         "link": "pages/tourdates.html",
         "catagory": "Other"
     },
+    "philanthropy": {
+        "verbose": "Philanthropy",
+        "link": "pages/philanthropy.html",
+        "catagory": "Other"
+    },
 }
 
 
