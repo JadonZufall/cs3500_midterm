@@ -64,7 +64,6 @@ Cassidy, Norkett [Jan 27 2023]:
 Cassidy, Norkett [Jan 27 2023]:
     I changed my mind and replaced what I deleted in the previous commit.
 
-
 Cassidy, Norkett [Jan 27 2023]:
     I added a section for the "Top Hits" header.
 
@@ -101,3 +100,26 @@ Cassidy, Norkett [Feb 14 2023]:
 	
 Cassidy, Norkett [Feb 14 2023]:
 	Added an external link to the tour date section in index.html
+	
+Cassidy, Norkett [Feb 19, 2023]:
+	Created and inserted basic html framework to references.html, catalog.html, about.html
+	
+Cassidy, Norkett [Feb 19, 2023]:
+	Rename reference to reference.html and catalog to catalog.html
+	
+Cassidy, Norkett [Feb 23, 2023]:
+	Created and updated the hardships.html to include more added information 
+	
+Cassidy, Norkett [Feb 24, 2023]:
+	Created hardshipsstyles.css, activism.html, and activism.css and added the basic framework 
+	
+Cassidy, Norkett [Feb 24, 2023]:
+	Added paragraphs regarding Taylor Swift's hardships. Added line breaks, paragraph formatting, font, background color
+	
+Cassidy, Norkett [Feb 26, 2023]:
+	Updated activism.html to include images, links, and added more paragraphs to complete the information
+	
+Cassidy, Norkett [Feb 26, 2023]
+	Created genreswitch.html and taylorsversion.html. I added all the information, text, paragraphs, and images to the layout of the webpage.
+	
+
