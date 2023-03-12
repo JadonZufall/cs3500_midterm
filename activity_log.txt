@@ -122,6 +122,24 @@ Cassidy, Norkett [Feb 26, 2023]:
 Cassidy, Norkett [Feb 26, 2023]
 	Created genreswitch.html and taylorsversion.html. I added all the information, text, paragraphs, and images to the layout of the webpage.
 	
+Ani, Malachi [Feb 27, 2023]
+	Created tourdates.html and philanthropy.html
+	
+Ani, Malachi [Mar 1, 2023]
+	Began the head portion to tourdates.html and worked on the style elements in tourdates.css and div elements and addded a path to tourdates.html
+
+Ani, Malachi [Mar 7, 2023]
+	Added all the information to tourdates.html, creating the div elements, table and button elements.
+
+Ani, Malachi [Mar 9, 2023]
+	Fixed some elements of tourdates and added in the links to the tickets.
+	
+Ani, Malachi [Mar 11, 2023]
+	Finished philanthropy page with all the correct data and added it to the navbar.
+
+Ani, Malachi [Mar 12, 2023]
+	Created trivia/fun facts page and added the required information and finished the webpage. Also added sources used in other pages to sources.html. Added all 	     required information to about, catalog and sources sections. 
+
 Cassidy, Norkett [Mar 12, 2023]
 	Added individual requirements to the about.html
 
