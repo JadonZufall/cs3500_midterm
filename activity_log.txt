@@ -122,4 +122,6 @@ Cassidy, Norkett [Feb 26, 2023]:
 Cassidy, Norkett [Feb 26, 2023]
 	Created genreswitch.html and taylorsversion.html. I added all the information, text, paragraphs, and images to the layout of the webpage.
 	
+Cassidy, Norkett [Mar 12, 2023]
+	Added individual requirements to the about.html
 
