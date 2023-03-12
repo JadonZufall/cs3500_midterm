@@ -124,6 +124,11 @@ const websitePages = {
         "link": "pages/philanthropy.html",
         "catagory": "Other"
     },
+    "trivia": {
+        "verbose": "Trivia",
+        "link": "pages/trivia.html",
+        "catagory": "Other"
+    },
 }
 
 
