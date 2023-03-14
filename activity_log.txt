@@ -143,3 +143,171 @@ Ani, Malachi [Mar 12, 2023]
 Cassidy, Norkett [Mar 12, 2023]
 	Added individual requirements to the about.html
 
+Zufall, Jadon, [Feb 6 2023]:
+    Updated and tweak small changes to the timeline page.
+
+Zufall, Jadon, [Feb 8 2023]:
+    Created picture display for top hits with links to music videos
+
+Zufall, Jadon, [Feb 8 2023]:
+    Removed personal life and death (Taylor swift isnt dead)
+
+Zufall, Jadon, [Feb 8 2023]:
+    Updated navbar title
+
+Zufall, Jadon, [Feb 8 2023]:
+    Modified page nav and general alignment
+
+Zufall, Jadon, [Feb 8 2023]:
+    Alignment of items within container divs
+
+Zufall, Jadon, [Feb 8 2023]:
+    Updated page documentation
+
+Zufall, Jadon, [Feb 15 2023]:
+    Added all major albumns to publications page
+
+Zufall, Jadon [Feb 21, 2023]:
+     added dynamic sizing for topbar so it isn't always in the way on mobile
+
+Zufall, Jadon [Feb 21, 2023]:
+    back to top link
+
+Zufall, Jadon [Feb 21, 2023]:
+    ref updated to included rounded w3 school
+
+Zufall, Jadon [Feb 21, 2023]:
+    text alignment and standout backdrop
+
+Zufall, Jadon [Feb 21, 2023]:
+    Text standout
+
+Zufall, Jadon [Feb 21, 2023]:
+    Added citations
+
+Zufall, Jadon [Feb 21, 2023]:
+    Updated references into proper citation
+
+Zufall, Jadon [Feb 21, 2023]:
+    Updated references to include some documentation
+
+Zufall, Jadon [Feb 21, 2023]:
+    Added navagation items to page
+
+Zufall, Jadon [Feb 21, 2023]:
+    Created missing required pages
+
+Zufall, Jadon [Feb 21, 2023]:
+    Fixed alignment of a bunch of content also removed bad tags
+
+Zufall, Jadon [Feb 21, 2023]:
+    Fixed all added pages appended topbar, moved content 
+
+Zufall, Jadon [Feb 24, 2023]:
+    Created css for merch page
+
+Zufall, Jadon [Feb 24, 2023]:
+    Created merch page using bootstrap elements
+
+Zufall, Jadon [Feb 24, 2023]:
+    Updated js navbar pages
+
+Zufall, Jadon [Feb 24, 2023]:
+    Updated references
+
+Zufall, Jadon [Feb 24, 2023]:
+    Updated styles
+
+Zufall, Jadon [Feb 24, 2023]:
+    Uploaded imgs for album art
+
+Zufall, Jadon [Feb 24, 2023]:
+    Created scripts for parsing music data
+
+Zufall, Jadon [Feb 24, 2023]:
+    Created music album browser
+
+Zufall, Jadon [Feb 24, 2023]:
+    Updated references for music page
+
+Zufall, Jadon [Feb 24, 2023]:
+    Navbar dropdown menus
+
+Zufall, Jadon [Feb 24, 2023]:
+    Matched style of music with rest of project
+
+Zufall, Jadon [Feb 24, 2023]:
+    Fixed issue with groups not displaying active stat
+
+Zufall, Jadon [Feb 24, 2023]:
+    Added some comments
+
+Zufall, Jadon [Feb 24, 2023]:
+    Added navbar unstick when screen small.
+
+Zufall, Jadon [Feb 24, 2023]:
+    Small tweaks
+
+Zufall, Jadon [Feb 24, 2023]:
+    Cleaned up pointless files
+
+Zufall, Jadon [Feb 26, 2023]:
+    Updated navbar to include new pages
+
+Zufall, Jadon [Mar 10, 2023]:
+    Picture scaling on hover
+
+Zufall, Jadon [Mar 10, 2023]:
+    Hover navbar element highlighting
+
+Zufall, Jadon [Mar 10, 2023]:
+    Dynamic merch transform sizing events
+
+Zufall, Jadon [Mar 10, 2023]:
+    Dynamic element resizing rules added
+
+Zufall, Jadon [Mar 10, 2023]:
+    Fixed navbar dynamic sizing
+
+Zufall, Jadon [Mar 10, 2023]
+    Changed color theme
+
+Zufall, Jadon [Mar 10, 2023]
+    Fixed all improper linking of stylesheets
+
+Zufall, Jadon [Mar 10, 2023]
+    Updated references to a better format then it was before
+
+Zufall, Jadon [Mar 10, 2023]
+    Fixed broken pages
+
+Zufall, Jadon [Mar 10, 2023]
+    Fixed broken pages
+
+Zufall, Jadon [Mar 10, 2023]
+    removed empty pages
+
+Zufall, Jadon [Mar 10, 2023]
+    Updated pages with links
+
+Zufall, Jadon [Mar 10, 2023]
+    Fixed unclosed quotations on js script
+
+Zufall, Jadon [Mar 10, 2023]
+    Removed redundent css files
+
+Zufall, Jadon [Mar 10, 2023]
+    Cleaned up page a little
+
+Zufall, Jadon [Mar 10, 2023]
+    Padded out the movie desc and img
+
+Zufall, Jadon [Mar 10, 2023]
+    Updated ref sources and about to look a lil better
+
+Zufall, Jadon [Mar 10, 2023]
+    Updated catalog to include all pages and small tweaks to music and about
+    
+Zufall, Jadon [Mar 10, 2023]
+    Updated scripts
+
