@@ -310,7 +310,6 @@ Zufall, Jadon [Mar 10, 2023]
     
 Zufall, Jadon [Mar 10, 2023]
     Updated scripts
-    
 
 TaVaughn, Walker [Feb 21, 2023]:
 	Created early_life.html and added extra paragraphs and images
