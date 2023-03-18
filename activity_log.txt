@@ -310,4 +310,17 @@ Zufall, Jadon [Mar 10, 2023]
     
 Zufall, Jadon [Mar 10, 2023]
     Updated scripts
+    
 
+TaVaughn, Walker [Feb 21, 2023]:
+	Created early_life.html and added extra paragraphs and images
+	
+TaVaughn, Walker [Feb 22, 2023]:
+	Added paragraphs regarding Taylor Swift's Early Childhood.  Created 1989.html and added extra paragraphs
+    
+TaVaughn , Walker [Feb 24, 2023]:
+	Created career_beginnings.html and added paragraphs, line breaks, etc.
+	
+TaVaughn, Walker [Feb 25, 2023}:
+	Created present_day.html and added paragraphs and line breaks.
+	
