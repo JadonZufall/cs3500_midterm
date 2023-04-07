@@ -323,3 +323,46 @@ TaVaughn , Walker [Feb 24, 2023]:
 TaVaughn, Walker [Feb 25, 2023}:
 	Created present_day.html and added paragraphs and line breaks.
 	
+Jadon, Zufall [Mar 17 2023]:
+	Creation of github repo as well as basic project template.  This is a seperate github repo from the one
+	that was used for the first project.
+
+Jadon, Zufall [Mar 17 2023]:
+	Included JQuery Bootstrap and PHP into the website by linking the index.html, Possibly make this into a PHP
+	include file so that it can be included in a single line later down the line.
+
+Jadon, Zufall [Mar 17 2023]:
+	Created basic outline for the global CSS style sheet that will be used throughout the webpage in order to
+	keep the sites theme consistant.
+
+Jadon, Zufall [Mar 18 2023]:
+	Create documentation for github repo in the readme file, this includes installation instructions for all the
+	required parts of the tech stack that require an install such as Git MySQL XAMPP and PHP on three operating
+	systems each (Windows, Mac, Linux).  I also am planning on updating this to include project setup instructions
+	for reference as setting up a web development enviorment on a local machine can be a bit tricky at times.  This
+	also includes the project requirements as well as documentation of the file structure and how to properly create
+	pages that kind of thing.
+
+Jadon, Zufall [Mar 18 2023]:
+	Created dbh.inc.php an include file that will be used in order to read and write data to the database.  Basically
+	this PHP file connects to the database and is intended to be accessed else where.
+
+Jadon, Zufall [Mar 18 2023]:
+	Started work on some PHP tools such as a signup page as well as a login page, this will be used later on for user
+	auth but I just wanted to get some PHP stuff into the website.  Currently the form is not secure and will need some
+	work before it will be secure but that comes with a bit of time.
+
+Jadon, Zufall [Mar 18 2023]:
+	Created database schema for user accounts table, this will store the user accounts although the current state of
+	the table is not final as passwords will require hashing and other web security stuff.
+
+Jadon, Zufall [Mar 18 2023]:
+	Added documentation to readme.md on properly using github from a local machine rather then from the webpage as
+	I think that people have been using as this will make it much easier to host on a webserver etc.
+
+Jadon, Zufall [Mar 18 2023]:
+	Created header.php in order to include in other files elsewhere so that things are easily added across webpages and
+	are not required to be included elsewhere over and over again.
+
+Jadon, Zufall [Apr 7 2023]:
+    Started work on improving router
